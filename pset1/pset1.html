@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pset 1</title>
+	<!-- <script type="text/javascript", src = "cs376pset1.js"></script> -->
+</head>
+<body>
+
+<!-- <h1>List of Galleries</h1> -->
+	<div id='output'> 
+	</div>
+	<div id="outputObj">
+	</div>
+	<div id="images">
+	</div>
+
+	<h4>Find an object you desire!</h4>
+
+	<form class = "info" method="post">
+	    <label for="name">Culture:</label>
+	    <input type="text" id="name" name="culture">
+  		<button type="submit">Find objects</button>
+	</form>
+
+	<div id="culture">
+	</div>
+
+	<form class = "infoYear" method="post">
+	    <label for="name">Year:</label>
+	    <input type="text" id="name" name="yearmade">
+  		<button type="submit">Find objects</button>
+	</form>
+
+	<div id="yearmade">
+
+	</div>
+
+	<form class = "infoPerson" method="post">
+	   <label for="name">Person ID:</label>
+	   <input type="text" id="name" name="person">
+  	<button type="submit">Find objects</button>
+	</form>
+
+	<div id="person">
+
+	</div>
+
+	<form class = "infoPlace" method="post">
+	   <label for="name">Place ID/Place name:</label>
+	   <input type="text" id="name" name="place">
+  	<button type="submit">Find objects</button>
+	</form>
+
+	<div id="place">
+
+	</div>
+
+	<form class = "infoWork" method="post">
+	   <label for="name">worktype ID:</label>
+	   <input type="text" id="name" name="worktype">
+  	<button type="submit">Find objects</button>
+	</form>
+
+	<div id="worktype">
+
+	</div>
+
+	<h4>Find exhibitions before, after or between any date!</h4>
+
+	<form class = "infoDate" method="post">
+	   <label for="name">After:</label>
+	   <input type="text" id="name" name="after" value="YYYY-MM-DD" required>
+	   <label for="name">Before:</label>
+	   <input type="text" id="name" name="before" value="YYYY-MM-DD" required>
+  	<button type="submit">Find exhibitions</button>
+	</form>
+
+	<div id="after">
+
+	</div>
+
+	<h4>Find people's ID in charge of a certain culture!</h4>
+
+	<form class = "infoPersCult" method="post">
+	   <label for="name">Person's Culture:</label>
+	   <input type="text" id="name" name="q" value="Chinese">
+  	<button type="submit">Find Person ID</button>
+	</form>
+
+	<div id="q">
+
+	</div>
+
+	<h4>Find works published in a certain year!</h4>
+
+	<form class = "infoPublish" method="post">
+	   <label for="name">Year Published:</label>
+	   <input type="text" id="name" name="q" value="2013">
+  	<button type="submit">Find publication titles</button>
+	</form>
+
+	<div id="publication">
+
+	</div>
+
+	<script type="text/javascript" src="cs376pset1.js"></script>
+</body>
+</html>
